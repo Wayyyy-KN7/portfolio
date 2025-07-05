@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .head { background: #000; color: #fff; padding: 80px 0; text-align: center; }
+    .head img {  border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 4px solid #fff; }
+    .project-img {
+         width: 100%;
+          height: auto; 
+          border-radius: 10px; 
+        }
+    .testimonial img { 
+        width: 60px; 
+        height: 60px; 
+        border-radius: 50%; 
+    }
+      .card {
+      background-color: #1e1e1e;
+      border: none;
+      border-radius: 12px;
+      color: #ccc;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 10px rgba(228, 180, 36, 0.83);
+    }
+    .footer { 
+        background: #222; 
+        color: #bbb; 
+        text-align: center; 
+        padding: 20px 0;
+     }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">KAUNG</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Project">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item">
+          <a href="#contact" class=" nav-link btn btn-custom bg-warning text-dark">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Head Section -->
+<section class="head">
+    <div class="container">
+        <img src="images/sticker.webp" alt="Kaung" class="img-fluid mt-4">
+      <h1>Hi'I am Kaung</h1>
+      <p class="lead">A Creative Freelancer & Full Stack Developer</p>
+      <a href="#services" class="btn btn-warning mt-3">View My Work</a>
+     
+    </div>
+</section>
+<!-- About Me -->
+  <section id="about" class="section container mt-3 mb-3  ">
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <img src="images/for porfolio.jpg" alt="About Image" class="img-fluid rounded">
+      </div>
+      <div class="col-md-8">
+        
+        <h3 class="text-dark">About Me</h3>
+        <p>
+          My name is Kaung Sett Naing. I'm a Freelance Full Stack Developer based in Yangon, Myanmar, and I'm very passionate and dedicated to my work. With 1 year of experience as a professional Full Stack Developer, I have acquired the skills necessary to build great and premium websites.
+        </p>
+        <h4>Fun fact</h4>
+        <p>
+        🍜 I can eat spicy noodles without drinking water (yes, really).<br>
+        ⚽I’m a full-stack developer by day and a striker by weekend. Football keeps me focused and competitive — both on the field and in life.
+        </p>
+
+        <ul class="list-unstyled">
+          <li><strong>Name:</strong> Kaung Sett Naing</li>
+          <li><strong>Experience:</strong> 1 year</li>
+          <li><strong>Age:</strong> 24</li>
+          <li><strong>Address:</strong> Yangon,Myanmar</li>
+          <li><strong>Freelance:</strong> Available</li>  
+        </ul>
+        <a href="#" class="btn btn-custom mt-2 bg-warning">Download CV</a>
+      </div>
+    </div>
+</section>
+<!-- Services -->
+<section class="py-5" id="services">
+<div class="container">
+      <h2 class="text-center mb-3">Services</h2>
+    <div class="row g-4">
+        <div class="col-md-4 ">
+            <div class="card p-4 ">
+               <div class="card-icon mb-2">
+                <img src="images/icons8-management-50.png" alt="business management">
+               </div>
+               <h5 class="card-title">Business Management</h5>
+               <p class="card-text">Drive myself down amazing paths! Growing in the current is the core to the next.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-4">
+               <div class="card-icon mb-2">
+                <img src="images/icons8-mobile-phone-48.png" alt="business management">
+
+               </div>
+               <h5 class="card-title">App Development</h5>
+               <p class="card-text">Work from the very first step to app development processes till the time to make your project live.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-4">
+               <div class="card-icon mb-2">
+                <img src="images/icons8-bonds-48.png" alt="business management">
+               </div>
+               <h5 class="card-title">Business Strategy</h5>
+               <p class="card-text"> Optimize your business and increase revenue reliability and reduce unnecessary costs.</p>
+            </div>
+        </div>
+         <div class="col-md-4">
+            <div class="card p-4">
+               <div class="card-icon mb-2">
+                <img src="images/icons8-application-48.png" alt="application">
+               </div>
+               <h5 class="card-title">Mobile App</h5>
+               <p class="card-text"> In mobile app solution development to create beautiful, pixel-perfect designs.</p>
+            </div>
+        </div>
+         <div class="col-md-4">
+            <div class="card p-4">
+               <div class="card-icon mb-2">
+                <img src="images/icons8-user-shield-48.png" alt="Security">
+               </div>
+               <h5 class="card-title">Security</h5>
+               <p class="card-text">Your website ranking matters. Gain SEO excellence that’ll upgrade to the top of the relevant daily search</p>
+            </div>
+        </div>
+         <div class="col-md-4">
+            <div class="card p-4">
+               <div class="card-icon mb-2">
+                <img src="images/icons8-tools-48.png" alt="UIUX">
+               </div>
+               <h5 class="card-title">UX Consulting</h5>
+               <p class="card-text">A UX consultant’s approach to many of the common tasks of UX designers, but they typically...</p>
+            </div>
+        </div>
+    </div>  
+</div>
+</section>
+<!-- Portfolio Projects -->
+  <section class="bg-light py-5" id="Project" >
+    <div class="container">
+      <h2 class="text-center mb-3">My Projects</h2>
+      <div class="row mt-4">
+        <div class="col-md-4">
+           <div class="card rounded  border-dark h-100">
+            <img src="images/cafe.png" class="card-img-top" alt="cafe">
+            <div class="card-body">
+              <h5 class="card-title text-white">First Project</h5>
+              <p class="text-white">Frontend Html,Css,JS.</p>
+              <a href="#" class="btn btn-warning">Live demo</a>
+            </div>
+           </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card rounded  border-dark h-100">
+            <img src="images/login.png" class="card-img-top" alt="cafe">
+            <div class="card-body">
+              <h5 class="card-title text-white">Second Project</h5>
+              <p class="text-white">Frontend Html,Css,JS.</p>
+              <a href="#" class="btn btn-warning">Live demo</a>
+            </div>
+           </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card rounded  border-dark h-100">
+            <img src="images/Nav.png" class="card-img-top" alt="cafe">
+            <div class="card-body">
+              <h5 class="card-title text-white">Third Project</h5>
+              <p class="text-white">Frontend Html,Css,JS.</p>
+              <a href="#" class="btn btn-warning">Live demo</a>
+            </div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Skills section -->
+<section class="skill bg-light" id="skills">
+  <div class="text-center text-dark">
+    <h2>My Skills</h2>
+    <p>
+      Built through hands-on experience and continuous learning &<br>
+      Crafted with curiosity, refined through practice.
+    </p>
+  </div>
+  <div class="container ">
+    <div class="row ">
+      <div class="col-md-6">
+          <div class="d-flex justify-content-between skill-title text-dark">
+           <span>HTML</span>
+          </div>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-dark" style="width: 100%;"></div>
+          </div>
+          <div class="d-flex justify-content-between skill-title text-dark">
+           <span>CSS</span>
+          </div>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-dark" style="width: 70%;"></div>
+          </div>
+          <div class="d-flex justify-content-between skill-title text-dark">
+           <span>JavaScript</span>
+          </div>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-dark" style="width: 40%;"></div>
+          </div>
+      </div>
+            <div class="col-md-6">
+          <div class="d-flex justify-content-between skill-title text-dark">
+           <span>Git</span>
+          </div>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-dark" style="width: 60%;"></div>
+          </div>
+          <div class="d-flex justify-content-between skill-title text-dark">
+           <span>Responsive</span>
+          </div>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-dark" style="width: 70%;"></div>
+          </div>
+          <div class="d-flex justify-content-between skill-title text-dark">
+           <span>Bootstrap</span>
+          </div>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-dark " style="width: 70%;"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact -->
+<section class="py-5" id="contact">
+    <h2 class="text-center text-dark mb-2 mt-2"> Contact Us</h2>
+    <p class="text-center mb-3">Off the field and on the web — let’s talk projects, ideas, or even football!<br>
+         💬Let’s build something great together — drop me a message below!
+    </p>
+  <div class="container ">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mb-4 d-flex align-items-center">
+               <span class="contact-icon">🏠</span>
+                <div class="contact-info">
+                <div class="contact-label">BaNyar Road, ABC Building</div>
+                <small>Myanmar, Yangon</small>
+                </div>
+          </div>
+          <div class="mb-4 d-flex align-items-center">
+                <span class="contact-icon">☎️</span>
+                  <div class="contact-info">
+                  <div class="contact-label">+95 944342790</div>
+                  </div>
+                </div>
+          <div class="mb-4 d-flex align-items-center">
+                <span class="contact-icon">📫</span>
+                  <div class="contact-info">
+                  <div class="contact-label">genick64@gamil.com</div>
+                  </div>
+          </div>
+          <div class="mb-4 d-flex align-items-center">
+                  <img src="images/icons8-github-24.png" alt="github icon">
+                <div class="contact-info">
+                  <div class="contact-label">Wayyyy-KN7</div>
+                </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form>
+           <input type="text" class="form-control mb-2" name="username" placeholder="Enter Your Name" />
+           <input type="email" class="form-control mb-2" name="Eamil Address"placeholder="Enter Email Address" />
+           <input type="text" class="form-control mb-2" name="Phone number"placeholder="Enter Your Phone" />
+           <textarea class="form-control " rows="3" name="Message" placeholder="Message"></textarea>
+           <button type="submit" class="btn btn-send mt-3 bg-warning">Send Message</button>
+          </form>
+        </div>         
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2025 Kaung Sett Naing. All rights reserved.</p>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
